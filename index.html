@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.31.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>World Clcok</title>
@@ -14,10 +14,11 @@
 
           <select id="city">
         <option value="">Select a city..</option>
+        <option value="current">My Current Location</option>
         <option value="Europe/London">London</option>
         <option value="America/New_York">New York</option>
         <option value="Pacific/Auckland">Auckland</option>
-        <option value="Asia/Hanoi">Hanoi</option>
+        <option value="Asia/Hong_Kong">Hong Kong</option>
       </select>
 <div id="cities">
       <div class="city" id="los-angeles">
@@ -28,9 +29,9 @@
         <div class="time"></div>
       </div>
 
-      <div class="city" id="berlin">
+      <div class="city" id="paris">
         <div>
-          <h2>Berlin 🇩🇪</h2>
+          <h2>Paris 🇫🇷</h2>
           <div class="date"></div>
         </div>
         <div class="time"></div>
